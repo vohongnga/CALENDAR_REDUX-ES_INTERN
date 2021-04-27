@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  margin-top: 10%;
+}
+.month{
+  font-size: 3.5em  !important;
+  color: yellow;
+  text-align: center;
+  width: 40%;
+  float: left;
+  /* //padding-top: 50px; */
+}
+
+.date{
+  display: grid;
+  grid-template-columns:repeat(7,1fr);
+  margin-bottom: 20px;
+  width: 60%;
+}
+.date h5{
+  color: yellow
+}
+.item{
+  color: white;
+  height: 50px;
+  text-align: center;
+}
+.item:hover{
+  background-color: rgb(236, 250, 44);
+  color: black
+}
+.item p{
+  cursor: pointer;
+}
+.next{
+  position: absolute;
+  left: 35%; 
+   top: 30%
+}
+.previous {
+  position: absolute;
+  left: 5%;
+  top: 30%
+}
+.notInMonth{
+  color: #535455;
+}
+.active {
+  background-color: rgb(236, 250, 44);
+  color: black
+}
+.right{
+  float: right;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.modifiedModal{
+  width: 90%;
+  height: 250px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+form select{
+  margin-left: 10px;
+}
